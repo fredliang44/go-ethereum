@@ -32,8 +32,8 @@ import (
 const (
 	vsn                      = "2.0"
 	serviceMethodSeparator   = "_"
-	subscribeMethodSuffix    = "_subscribe"
-	unsubscribeMethodSuffix  = "_unsubscribe"
+	subscribeMethodSuffix    = "_subscribeEvent"
+	unsubscribeMethodSuffix  = "_unSubscribeEvent"
 	notificationMethodSuffix = "_subscription"
 
 	defaultWriteTimeout = 10 * time.Second // used if context has no deadline
